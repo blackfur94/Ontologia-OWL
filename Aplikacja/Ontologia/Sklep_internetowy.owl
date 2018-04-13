@@ -1,0 +1,1457 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.digitalgamer.pl/ontologia/sklep.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.digitalgamer.pl/ontologia/sklep.owl">
+    <Prefix name="" IRI="http://www.digitalgamer.pl/ontologia/sklep.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#dodawany_do"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osoba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Klawiatura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koszyk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zasilacz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Koszyk_02"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Koszyk_ID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#przyjmowane_przez"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Produkt_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Klient_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obudowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Myszka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produkt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_03"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chlodzenie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Kod_pocztowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karta_dzwiekowa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dodawany_przez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zawiera"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dostawca_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Przedplata"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PESEL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pracownik_02"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sklep_internetowy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#przyjmuje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procesor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dostarcza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zawarte_w"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_06"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prowadzi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_02"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Wartosc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nalezy_do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Platnosc_ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_platnosci_03"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sklada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zatrudnia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Ulica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Opis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Czas_dostawy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Imie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysk_twardy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prowadzony_przez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Klient_01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zestaw_komputerowy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nazwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_05"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Przy_odbiorze"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wybiera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pracownik"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nazwisko"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Zamowienie_ID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skladane_przez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pracownik_ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dodaje_do_koszyka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Firma_01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sposob_platnosci"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Odbior_osobisty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usuwany_z"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karta_graficzna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usuwa_z_koszyka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poczta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Koszyk_01"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obslugiwany_przez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obsluguje"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Klient_02"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wybierany_przez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Produkt_04"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dostarczane_przez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zamowienie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Adres_URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sposob_dostawy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Klient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sposob_platnosci_01"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pracuje_w"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Chlodzenie"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysk_twardy"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karta_dzwiekowa"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karta_graficzna"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Klawiatura"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Klient"/>
+        <Class IRI="#Osoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurier"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Myszka"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obudowa"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Odbior_osobisty"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poczta"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pracownik"/>
+        <Class IRI="#Osoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procesor"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Przedplata"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Przy_odbiorze"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zasilacz"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zestaw_komputerowy"/>
+        <Class IRI="#Produkt"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Chlodzenie"/>
+        <Class IRI="#Dysk_twardy"/>
+        <Class IRI="#Firma"/>
+        <Class IRI="#Karta_dzwiekowa"/>
+        <Class IRI="#Karta_graficzna"/>
+        <Class IRI="#Klawiatura"/>
+        <Class IRI="#Klient"/>
+        <Class IRI="#Koszyk"/>
+        <Class IRI="#Kurier"/>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Myszka"/>
+        <Class IRI="#Obudowa"/>
+        <Class IRI="#Odbior_osobisty"/>
+        <Class IRI="#Poczta"/>
+        <Class IRI="#Pracownik"/>
+        <Class IRI="#Procesor"/>
+        <Class IRI="#Przedplata"/>
+        <Class IRI="#Przy_odbiorze"/>
+        <Class IRI="#Sklep_internetowy"/>
+        <Class IRI="#Zamowienie"/>
+        <Class IRI="#Zasilacz"/>
+        <Class IRI="#Zestaw_komputerowy"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Firma"/>
+        <NamedIndividual IRI="#Firma_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Klient"/>
+        <NamedIndividual IRI="#Klient_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Klient"/>
+        <NamedIndividual IRI="#Klient_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Koszyk"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Koszyk"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pracownik"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pracownik"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Procesor"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Myszka"/>
+        <NamedIndividual IRI="#Produkt_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Klawiatura"/>
+        <NamedIndividual IRI="#Produkt_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Laptop"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zasilacz"/>
+        <NamedIndividual IRI="#Produkt_05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dysk_twardy"/>
+        <NamedIndividual IRI="#Produkt_06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sklep_internetowy"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kurier"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poczta"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Odbior_osobisty"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Przy_odbiorze"/>
+        <NamedIndividual IRI="#Sposob_platnosci_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Przy_odbiorze"/>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Przedplata"/>
+        <NamedIndividual IRI="#Sposob_platnosci_03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zamowienie"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zamowienie"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prowadzi"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zatrudnia"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zatrudnia"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodaje_do_koszyka"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sklada"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wybiera"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wybiera"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodaje_do_koszyka"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sklada"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wybiera"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wybiera"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <NamedIndividual IRI="#Sposob_platnosci_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nalezy_do"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+        <NamedIndividual IRI="#Klient_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zawiera"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nalezy_do"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+        <NamedIndividual IRI="#Klient_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zawiera"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obsluguje"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pracuje_w"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <NamedIndividual IRI="#Firma_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#przyjmuje"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obsluguje"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#pracuje_w"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <NamedIndividual IRI="#Firma_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodawany_do"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodawany_przez"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <NamedIndividual IRI="#Klient_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodawany_do"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dodawany_przez"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <NamedIndividual IRI="#Klient_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obslugiwany_przez"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prowadzony_przez"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+        <NamedIndividual IRI="#Firma_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dostarcza"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#obslugiwany_przez"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wybierany_przez"/>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+        <NamedIndividual IRI="#Klient_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dostarczane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#przyjmowane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skladane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <NamedIndividual IRI="#Klient_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zawiera"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dostarczane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#przyjmowane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#skladane_przez"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <NamedIndividual IRI="#Klient_02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zawiera"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">39-300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Laptopy.pl Sp. z.o.o.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ulica"/>
+        <NamedIndividual IRI="#Firma_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grunwaldzka 10a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Imie"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ewa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Klient_ID"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">35-316</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwisko"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kwiatkowska</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PESEL"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">23645897621</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ulica"/>
+        <NamedIndividual IRI="#Klient_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Podwisłocze 38/123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Imie"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tadeusz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Klient_ID"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">35-309</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwisko"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Maj</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PESEL"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">64358965231</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ulica"/>
+        <NamedIndividual IRI="#Klient_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rejtana 3/12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Koszyk_ID"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Koszyk_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1800.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Koszyk_ID"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Koszyk_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1528</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">kkowalski@laptopy.pl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Imie"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Krzysztof</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwisko"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kowalski</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PESEL"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">91326543215</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pracownik_ID"/>
+        <NamedIndividual IRI="#Pracownik_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1379</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Email"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">jnowak@laptopy.pl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Imie"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwisko"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nowak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PESEL"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">68532165821</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pracownik_ID"/>
+        <NamedIndividual IRI="#Pracownik_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7913</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intel Core i7-6700K</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Core i7-6700K to topowy przedstawiciel procesorow z rodziny Intel Skylake pod gniazdo LGA 1151, ktory sprawdzi sie zarowno w wydajnych komputerach do gier, jak i stacjach roboczych do połprofesjonalnych zastosowan.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1528.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Razer DeathAdder Chroma</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Razer DeathAdder zadebiutowal w 2006 roku i wciaz jest najlepiej sprzedajaca sie myszka gamingowa na swiecie, cieszaca sie olbrzymim zaufaniem wsrod profesjonalnych graczy. Dzieki polaczeniu ergonomii i precyzji Razer DeathAdder stal sie prawdziwa legenda.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">304.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A4Tech Bloody B314</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Klawiatury z serii BLOODY charakteryzuja sie unikatowym designem, a do ich produkcji uzywane sa najlepsze mozliwe materialy. Dzieki uwadze ktora jest przykladana do kazdego szczegolu podczas produkcji, zapewniaja one wysoki komfort, ergonomie oraz najlepsze mozliwe doznania dla graczy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">126.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Asus Zenbook UX360</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ASUS ZenBook Flip UX360CA swoja stylistyka oraz klasyczna konstrukcja nawiazuje do filozofii Zen. Cecha charakterystyczna tego konwertowalnego laptopa jest jego smukla obudowa wykonczona koncentrycznymi okregami w pelni wykonana z aluminium, co wplywa na mala wage notebooka.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1800.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Accura Premium 70W</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ACCURA PREMIUM to nowoczesny zasilacz do notebookow, kompatybilny z wiekszoscia dostepnych laptopow na rynku, ktorych zapotrzebowanie wynosi 70W.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">129.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Produkt_06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Crucial MX200 250GB SSD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Opis"/>
+        <NamedIndividual IRI="#Produkt_06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MX200 250 GB to 2.5-calowy wewnetrzny dysk twardy wykonany w technologii SSD (technologia FLASH).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Produkt_ID"/>
+        <NamedIndividual IRI="#Produkt_06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">06</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Produkt_06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">469.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Adres_URL"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.laptopy.pl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sklep_internetowy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Laptopy.pl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_dostawy"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Dostawca_ID"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">DPD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Sposob_dostawy_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">16.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_dostawy"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">48h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Dostawca_ID"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Poczta Polska</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Sposob_dostawy_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">10.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Czas_dostawy"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Dostawca_ID"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">39-300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sklep stacjonarny</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Ulica"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grunwaldzka 10a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Sposob_dostawy_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_platnosci_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Karta płatnicza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Platnosc_ID"/>
+        <NamedIndividual IRI="#Sposob_platnosci_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gotówka</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Platnosc_ID"/>
+        <NamedIndividual IRI="#Sposob_platnosci_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nazwa"/>
+        <NamedIndividual IRI="#Sposob_platnosci_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Przelew</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Platnosc_ID"/>
+        <NamedIndividual IRI="#Sposob_platnosci_03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Data"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-31T23:10:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1816.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Zamowienie_ID"/>
+        <NamedIndividual IRI="#Zamowienie_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Data"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-09T12:50:35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Wartosc"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1538</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Zamowienie_ID"/>
+        <NamedIndividual IRI="#Zamowienie_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">02</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dodaje_do_koszyka"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dodawany_do"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dodawany_przez"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dostarcza"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dostarczane_przez"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nalezy_do"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obslugiwany_przez"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obsluguje"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pracuje_w"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prowadzi"/>
+        <Class IRI="#Firma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prowadzony_przez"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#przyjmowane_przez"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#przyjmuje"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sklada"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skladane_przez"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usuwa_z_koszyka"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usuwany_z"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wybiera"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wybierany_przez"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wybierany_przez"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zatrudnia"/>
+        <Class IRI="#Firma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zawarte_w"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zawarte_w"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zawiera"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zawiera"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dodaje_do_koszyka"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dodawany_do"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dodawany_przez"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dostarcza"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dostarczane_przez"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nalezy_do"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obslugiwany_przez"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obsluguje"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pracuje_w"/>
+        <Class IRI="#Firma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prowadzi"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prowadzony_przez"/>
+        <Class IRI="#Firma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#przyjmowane_przez"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#przyjmuje"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sklada"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#skladane_przez"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usuwa_z_koszyka"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usuwany_z"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wybiera"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wybiera"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wybierany_przez"/>
+        <Class IRI="#Klient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zatrudnia"/>
+        <Class IRI="#Pracownik"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zawarte_w"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zawarte_w"/>
+        <Class IRI="#Zamowienie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zawiera"/>
+        <Class IRI="#Koszyk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zawiera"/>
+        <Class IRI="#Produkt"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Adres_URL"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Czas_dostawy"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Data"/>
+        <Class IRI="#Zamowienie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Dostawca_ID"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Email"/>
+        <Class IRI="#Osoba"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Imie"/>
+        <Class IRI="#Osoba"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Klient_ID"/>
+        <Class IRI="#Klient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <Class IRI="#Firma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <Class IRI="#Klient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <Class IRI="#Odbior_osobisty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Koszyk_ID"/>
+        <Class IRI="#Koszyk"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwa"/>
+        <Class IRI="#Firma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwa"/>
+        <Class IRI="#Produkt"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwa"/>
+        <Class IRI="#Sklep_internetowy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwa"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwa"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nazwisko"/>
+        <Class IRI="#Osoba"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Opis"/>
+        <Class IRI="#Produkt"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PESEL"/>
+        <Class IRI="#Osoba"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Platnosc_ID"/>
+        <Class IRI="#Sposob_platnosci"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pracownik_ID"/>
+        <Class IRI="#Pracownik"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Produkt_ID"/>
+        <Class IRI="#Produkt"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ulica"/>
+        <Class IRI="#Firma"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ulica"/>
+        <Class IRI="#Klient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Ulica"/>
+        <Class IRI="#Odbior_osobisty"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Wartosc"/>
+        <Class IRI="#Koszyk"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Wartosc"/>
+        <Class IRI="#Produkt"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Wartosc"/>
+        <Class IRI="#Sposob_dostawy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Wartosc"/>
+        <Class IRI="#Zamowienie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Zamowienie_ID"/>
+        <Class IRI="#Zamowienie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Adres_URL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Czas_dostawy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Data"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Dostawca_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Imie"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Klient_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Kod_pocztowy"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Koszyk_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nazwa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nazwisko"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Opis"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PESEL"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Platnosc_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pracownik_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Produkt_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Ulica"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Wartosc"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Zamowienie_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

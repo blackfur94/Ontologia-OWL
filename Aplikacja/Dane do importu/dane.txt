@@ -1,0 +1,57 @@
+<Indywiduum>
+<Nazwa>Klient_03</Nazwa>
+<Klasa>Osoba -> Klient</Klasa>
+<DataProperty>Imie -> Lukasz</DataProperty>
+<DataProperty>Nazwisko -> Witkowski</DataProperty>
+<DataProperty>Ulica -> Sekowskiego 3/41</DataProperty>
+<DataProperty>Kod_pocztowy -> 39-300</DataProperty>
+<DataProperty>PESEL -> 76589216543</DataProperty>
+<DataProperty>Klient_ID -> 03</DataProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Zamowienie_03</Nazwa>
+<Klasa>Zamowienie</Klasa>
+<DataProperty>Zamowienie_ID -> 03</DataProperty>
+<DataProperty>Wartosc -> 304.9</DataProperty>
+<DataProperty>Data -> 2017-01-15T09:20:07</DataProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Koszyk_03</Nazwa>
+<Klasa>Koszyk</Klasa>
+<DataProperty>Koszyk_ID -> 03</DataProperty>
+<DataProperty>Wartosc -> 304.9</DataProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Klient_03</Nazwa>
+<Klasa>Osoba -> Klient</Klasa>
+<ObjectProperty>wybiera -> Sposob_dostawy_03</ObjectProperty>
+<ObjectProperty>wybiera -> Sposob_platnosci_03</ObjectProperty>
+<ObjectProperty>dodaje_do_koszyka -> Produkt_02</ObjectProperty>
+<ObjectProperty>sklada -> Zamowienie_03</ObjectProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Koszyk_03</Nazwa>
+<Klasa>Koszyk</Klasa>
+<ObjectProperty>nalezy_do -> Klient_03</ObjectProperty>
+<ObjectProperty>zawiera -> Produkt_02</ObjectProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Produkt_02</Nazwa>
+<Klasa>Produkt -> Myszka</Klasa>
+<ObjectProperty>dodawany_przez -> Klient_03</ObjectProperty>
+<ObjectProperty>dodawany_do -> Koszyk_03</ObjectProperty>
+</Indywiduum>
+
+<Indywiduum>
+<Nazwa>Zamowienie_03</Nazwa>
+<Klasa>Zamowienie</Klasa>
+<ObjectProperty>przyjmowane_przez -> Pracownik_02</ObjectProperty>
+<ObjectProperty>zawiera -> Koszyk_03</ObjectProperty>
+<ObjectProperty>dostarczane_przez -> Sposob_dostawy_03</ObjectProperty>
+<ObjectProperty>skladane_przez -> Klient_03</ObjectProperty>
+</Indywiduum>
