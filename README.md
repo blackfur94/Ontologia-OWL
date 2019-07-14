@@ -1,5 +1,6 @@
 # Ontologia OWL
 Aplikacja do generowania i edycji ontologii OWL sklepu internetowego.
+Użyte technologie: Java Swing
 
 # Zrzuty ekranu
 
