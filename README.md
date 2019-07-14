@@ -12,5 +12,5 @@ Użyte technologie: Java Swing
 
 # Dokumentacja
 
-[Link](/Ontologia_OWL/blob/master/Dokumentacja.pdf).
+[Link](/Dokumentacja.pdf)
 
