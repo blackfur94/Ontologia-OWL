@@ -13,8 +13,6 @@ Aplikacja do zarządzania ontologią OWL sklepu internetowego, wykonana w ramach
 
 ![Alt text](/screenshots/2.png?raw=true "Optional Title")
 
-![Alt text](/screenshots/3.png?raw=true "Optional Title")
-
 # Dokumentacja
 
 [Link](/Dokumentacja.pdf)
