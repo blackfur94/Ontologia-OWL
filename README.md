@@ -10,3 +10,7 @@ Użyte technologie: Java Swing
 
 ![Alt text](/screenshots/3.png?raw=true "Optional Title")
 
+# Dokumentacja
+
+[Link](/Ontologia_OWL/blob/master/Dokumentacja.pdf).
+
