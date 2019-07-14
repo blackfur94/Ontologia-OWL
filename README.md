@@ -1,6 +1,11 @@
 # Ontologia OWL
-Aplikacja do generowania i edycji ontologii OWL sklepu internetowego, wykonana w ramach projektu inżynierskiego.<br/>
-Użyte technologie: Java Swing
+
+Aplikacja do zarządzania ontologią OWL sklepu internetowego, wykonana w ramach projektu inżynierskiego.
+
+# Wykorzystane technologie i biblioteki:
+
+- Java
+- Swing
 
 # Zrzuty ekranu
 
