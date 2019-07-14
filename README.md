@@ -1,4 +1,4 @@
-# Ontologia_OWL
+# Ontologia OWL
 Aplikacja do generowania i edycji ontologii OWL sklepu internetowego.
 
 # Zrzuty ekranu
