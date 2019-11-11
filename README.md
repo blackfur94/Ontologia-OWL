@@ -7,13 +7,12 @@ Aplikacja do zarządzania ontologią OWL sklepu internetowego, wykonana w ramach
 - Java
 - Swing
 
+# Dokumenty
+
+[Dokumentacja](/Dokumentacja.pdf)
+
 # Zrzuty ekranu
 
 ![Alt text](/screenshots/1.png?raw=true "Optional Title")
 
 ![Alt text](/screenshots/2.png?raw=true "Optional Title")
-
-# Dokumentacja
-
-[Link](/Dokumentacja.pdf)
-
